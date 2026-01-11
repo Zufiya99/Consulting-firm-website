@@ -8,11 +8,10 @@ const inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Axiom Advisory | Strategic Consulting & Digital Transformation",
+  title: "StratEdge | Strategic Consulting & Digital Transformation",
   description:
-    "Axiom Advisory is a future-ready strategic advisory firm at the intersection of finance, technology, and business transformation. Expert services in audit, tax, digital transformation, and ESG consulting.",
+    "StratEdge is a future-ready strategic advisory firm at the intersection of finance, technology, and business transformation. Expert services in audit, tax, digital transformation, and ESG consulting.",
   keywords: ["consulting", "advisory", "digital transformation", "audit", "tax", "ESG", "strategy"],
-    generator: 'v0.app'
 }
 
 export const viewport: Viewport = {

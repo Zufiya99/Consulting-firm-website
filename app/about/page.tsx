@@ -140,7 +140,7 @@ export default function AboutPage() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8"
               >
                 <Building className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">About Axiom Advisory</span>
+                <span className="text-sm text-muted-foreground">About StratEdge</span>
               </motion.div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground text-balance">
@@ -150,7 +150,7 @@ export default function AboutPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground">
-                For over 25 years, Axiom Advisory has been at the forefront of strategic consulting, helping enterprises
+                For over 25 years, StratEdge has been at the forefront of strategic consulting, helping enterprises
                 navigate complexity and achieve sustainable growth.
               </p>
 
@@ -190,9 +190,15 @@ export default function AboutPage() {
                   <motion.div
                     animate={{ scale: [1, 1.05, 1] }}
                     transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY }}
-                    className="w-40 h-40 rounded-3xl bg-gradient-to-br from-primary to-accent flex items-center justify-center"
+                    className="w-40 h-40 rounded-3xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-2xl shadow-primary/30"
                   >
-                    <span className="text-6xl font-bold text-primary-foreground">A</span>
+                    <motion.span 
+                      className="text-6xl font-bold text-primary-foreground"
+                      animate={{ scale: [1, 1.1, 1] }}
+                      transition={{ duration: 2, repeat: Infinity }}
+                    >
+                      S
+                    </motion.span>
                   </motion.div>
                 </div>
               </div>

@@ -70,8 +70,8 @@ const defaultInsight = {
   content: ["Please check the URL or browse our other insights."],
   readTime: "1 min read",
   date: "Jan 1, 2026",
-  author: "Axiom Team",
-  authorRole: "Axiom Advisory",
+  author: "StratEdge Team",
+  authorRole: "StratEdge",
   authorImage: "/professional-portrait.png",
   image: "/business-consulting-abstract.jpg",
 }

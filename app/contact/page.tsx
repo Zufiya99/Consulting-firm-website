@@ -28,8 +28,8 @@ const contactMethods = [
     icon: Mail,
     title: "Email Us",
     description: "Our team will respond within 24 hours",
-    value: "hello@axiomadvisory.com",
-    href: "mailto:hello@axiomadvisory.com",
+    value: "hello@stratedge.com",
+    href: "mailto:hello@stratedge.com",
   },
   {
     icon: Phone,
@@ -359,7 +359,7 @@ export default function ContactPage() {
                   <Twitter className="w-5 h-5" />
                 </motion.a>
                 <motion.a
-                  href="mailto:hello@axiomadvisory.com"
+                  href="mailto:hello@stratedge.com"
                   whileHover={{ scale: 1.1, y: -2 }}
                   className="w-12 h-12 rounded-xl bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all"
                 >

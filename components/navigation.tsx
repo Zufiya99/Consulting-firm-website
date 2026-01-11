@@ -60,17 +60,41 @@ export function Navigation() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 group">
               <motion.div
-                whileHover={{ scale: 1.05, rotate: 5 }}
-                transition={{ type: "spring", stiffness: 400 }}
+                whileHover={{ scale: 1.1, rotate: [0, -5, 5, -5, 0] }}
+                transition={{ duration: 0.5 }}
                 className="relative"
               >
-                <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-xl">A</span>
-                </div>
+                <motion.div 
+                  className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary via-primary to-accent flex items-center justify-center shadow-lg shadow-primary/20"
+                  animate={{ 
+                    boxShadow: [
+                      "0 0 0px rgba(59, 130, 246, 0.5)",
+                      "0 0 20px rgba(59, 130, 246, 0.3)",
+                      "0 0 0px rgba(59, 130, 246, 0.5)"
+                    ]
+                  }}
+                  transition={{ duration: 2, repeat: Infinity }}
+                >
+                  <motion.span 
+                    className="text-primary-foreground font-bold text-xl"
+                    animate={{ scale: [1, 1.1, 1] }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                  >
+                    S
+                  </motion.span>
+                  <motion.div
+                    className="absolute inset-0 rounded-lg border-2 border-primary/30"
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+                  />
+                </motion.div>
               </motion.div>
-              <span className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
-                Axiom
-              </span>
+              <motion.span 
+                className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors"
+                whileHover={{ x: 2 }}
+              >
+                StratEdge
+              </motion.span>
             </Link>
 
             {/* Desktop Navigation */}

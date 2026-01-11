@@ -195,7 +195,7 @@ export default function CareersPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <span className="text-sm font-medium text-primary uppercase tracking-wider">Why Axiom</span>
+            <span className="text-sm font-medium text-primary uppercase tracking-wider">Why StratEdge</span>
             <h2 className="mt-4 text-3xl md:text-4xl font-bold text-foreground">Why Join Our Team</h2>
           </motion.div>
 

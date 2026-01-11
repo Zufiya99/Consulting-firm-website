@@ -307,7 +307,7 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Why Choose Axiom</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Why Choose StratEdge</h2>
             <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
               We combine deep expertise with innovative approaches to deliver exceptional results.
             </p>
