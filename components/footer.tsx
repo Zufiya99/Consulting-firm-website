@@ -43,7 +43,7 @@ export function Footer() {
               <motion.div
                 whileHover={{ scale: 1.1, rotate: [0, -5, 5, -5, 0] }}
                 transition={{ duration: 0.5 }}
-                className="relative w-10 h-10 rounded-lg bg-gradient-to-br from-primary via-primary to-accent flex items-center justify-center shadow-lg shadow-primary/20"
+                className="relative w-10 h-10 rounded-lg bg-linear-to-br from-primary via-primary to-accent flex items-center justify-center shadow-lg shadow-primary/20"
               >
                 <motion.span
                   className="text-primary-foreground font-bold text-xl"

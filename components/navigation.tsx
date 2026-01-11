@@ -65,7 +65,7 @@ export function Navigation() {
                 className="relative"
               >
                 <motion.div 
-                  className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary via-primary to-accent flex items-center justify-center shadow-lg shadow-primary/20"
+                  className="w-10 h-10 rounded-lg bg-linear-to-br from-primary via-primary to-accent flex items-center justify-center shadow-lg shadow-primary/20"
                   animate={{ 
                     boxShadow: [
                       "0 0 0px rgba(59, 130, 246, 0.5)",
