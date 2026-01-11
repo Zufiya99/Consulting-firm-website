@@ -315,8 +315,8 @@ This project is proprietary and confidential. All rights reserved.
 ## 📞 Support
 
 For questions or support regarding this website:
-- **Email**: hello@stratedge.com
-- **Website**: [StratEdge](https://your-domain.com)
+- **Email**: idrisizufiya@gmail.com
+- **Website**: [StratEdge](https://zufiya-idrisi.netlify.app/)
 
 ---
 
